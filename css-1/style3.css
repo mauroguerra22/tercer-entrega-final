@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    border: 0%;
+}
+/* body {
+    background-image: url(https://www.solopilates.com.ar/wp-content/uploads/P30.jpg);
+    
+} */
+.imagenlogo {
+    color: rgb(220, 152, 51);
+    background-color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    display: block;
+}
+h1 {
+    background-color: black;
+    /* background-image: url(https://www.solopilates.com.ar/wp-content/uploads/P30.jpg); */
+    text-align: center;
+    font-size: 80%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.entrenadores {
+    background-color: black;
+}
+.card {
+    display: inline-block;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 0%;
+    border: 0px solid rgb(220, 152, 51);
+    padding: 3px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: rgb(220, 152, 51);
+    
+}
+.card2 {
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 0px;
+    float: right;
+    margin: 0%;
+    border: 0px solid rgb(220, 152, 51);
+    padding-right: 0px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: rgb(220, 152, 51);
+}
+.card_image {
+    padding-left: 260px;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+}
+.card_image2 {
+    padding-top: 0%;
+    padding-left: 200px;
+    width: 50%;
+    height: 0%;
+    text-align: center;
+}
+.card_title {
+    text-transform: uppercase;
+}
+.card_description {
+    font-style: italic;
+} */
+
+.box {
+    border: 0px solid rgb(82, 3, 3);
+    border-top: 0px green;
+    border-right: 0px black;
+    border-left: 0px yellow;
+    border-bottom: 0px blue;
+
+    font-size: 50px;
+
+    margin: 0%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    width: 100%;
+    height: 0%;
+    /* background-color: rgb(82, 3, 3); */
+    color: black;
+}
+.contenedor-fotos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.fotos {
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+    /* acomodar img al ancho de nuestra pantalla */
+    flex-wrap: wrap;
+    /* ordenar verticalmente */
+    flex-direction: column;
+    align-items: center;
+    /* convinar wrap y direcction */
+    flex-flow: row wrap; 
+}
+.texto {
+    margin: 0%;
+    border: 0%;
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 70px;
+    display: block;
+    padding-left: 30px;
+    justify-content: center ;
+    gap: 2rem;
+    /* el gap le da margenes entre los hijos */
+    align-items: center;
+    /* alinear verticalmente */
+    color: rgb(220, 152, 51);
+    background-image: url(/VisualStudioCode/images/gymcongreso/lion-logo.jpg);
+    background-position:98% 10%;
+    background-color: black;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texto2 {
+    font-size: 25px;
+    text-align: justify;
+    background-color: black;
+    color:rgb(220, 152, 51) ;
+}
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    color:rgb(220, 152, 51) ;
+    font-size: 30px;
+}
